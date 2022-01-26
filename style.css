@@ -1,0 +1,138 @@
+body {
+    background: #F7F7F9;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar .container .row {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+#navbar .container .row .col-1 {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#navbar .container .row .col-1 img {
+    width: auto;
+    margin: 35px 8px 35px 8px;
+}
+
+
+/* #navbar .container .row .col-2 {
+    width: 65%;
+} */
+
+#navbar .container .row .col-2 {
+    display: flex;
+    width: 54%;
+    font-size: 14px;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+#navbar .container .row .col-2 .navlink {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar .container .row .col-2 .navlink ul {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    display: flex;
+    font-size: 15px;
+    justify-content: flex-end;
+    padding-right: 16px;
+}
+
+#navbar .container .row .col-2 .navlink a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #1E255E;
+}
+
+
+/* 
+.btn-download-app {
+    text-decoration: none;
+} */
+
+#navbar .container .row .col-2 .btn-get-started {
+    border-radius: 50px;
+    /* width: 130px; */
+    /* height: 44px; */
+    font-size: 14px;
+    background-color: #3C4EF3;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    border: none;
+    margin: 16px;
+    padding: 0 24px 0px 24px;
+}
+
+#banner .container .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#banner .container .row .col-1 {
+    width: 50%;
+    padding-left: 10em;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner .container .row .col-1 h1 {
+    width: 100%;
+    color: #1E255E;
+    font-size: 65px;
+    line-height: 92px;
+    margin-bottom: 20px;
+}
+
+#banner .container .row .col-1 p {
+    line-height: 24px;
+    padding: 0px 50px 38px 0px;
+    color: rgba(30, 37, 94, 0.7);
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner .container .row .col-1 .google-buttons .btn-download-app {
+    display: inline-flex;
+    padding: 18px 30px 18px 30px;
+    border-radius: 30px;
+    background-color: #D9E5F8;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#banner .container .row .col-1 .google-buttons a img {
+    padding-right: 10px;
+    padding-left: 6px;
+}
+
+#banner .container .row .col-1 .google-buttons span {
+    color: #3C4EF3;
+}
+
+#banner .container .row .col-2 .mobile-img img {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+}
